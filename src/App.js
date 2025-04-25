@@ -11,7 +11,7 @@ import { lazy } from "react";
 import { Provider } from "react-redux";
 import appStore from "./RTStore/appStore";
 import Cart from "./components/Cart";
-import  Footer  from "./components/Footer";
+
 
 const About = lazy(() => import("./components/About") );
 function Applayout() {
