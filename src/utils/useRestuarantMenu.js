@@ -7,7 +7,7 @@ export function useRestuarantMenu(resId) {
     useEffect(() => {
         const fetchMenu = async () => {
             try {
-                const response = await fetch(MENU_API + resId);
+                const response = await fetch(`${MENU_API}/${resId}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
