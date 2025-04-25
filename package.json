@@ -2,24 +2,16 @@
   "name": "Food-Express",
   "version": "1.0.0",
   "description": "This is my first food-ordering app in react",
-  "main": "App.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mouli1807/BiteyBox.git"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "NamasteReact"
   ],
   "author": "Mouli",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mouli1807/BiteyBox/issues"
-  },
-  "homepage": "https://github.com/Mouli1807/BiteyBox#readme",
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",
